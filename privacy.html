@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Trawler Bot</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Outfit:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="glow-container">
+    <div class="glow-orb" id="orb-1"></div>
+    <div class="glow-orb" id="orb-2"></div>
+  </div>
+
+  <div class="dashboard-wrapper">
+    <header class="header">
+      <div class="header-logo">
+        <span class="emoji">🚢</span>
+        <h1>Trawler Bot</h1>
+      </div>
+      <nav class="nav-links">
+        <a href="tos.html" class="nav-link">TOS</a>
+        <a href="privacy.html" class="nav-link active">Privacy</a>
+        <a href="https://discord.gg/8xbdB6uzEd" target="_blank" class="nav-link">Support Discord</a>
+      </nav>
+    </header>
+
+    <section class="controls-panel glass" style="line-height: 1.7; padding: 32px; max-width: 800px; margin: 0 auto;">
+      <h2 style="font-size: 28px; color: var(--text-primary); margin-bottom: 6px; text-transform: none; font-weight: 700;">Privacy Policy</h2>
+      <p style="color: var(--text-muted); font-size: 13px; margin-bottom: 28px; font-family: var(--font-mono);">Last Updated: June 14, 2026</p>
+      
+      <div style="display: flex; flex-direction: column; gap: 24px;">
+        <div>
+          <h3 style="font-size: 18px; color: var(--accent-color); margin-bottom: 8px; font-weight: 600;">1. Information We Collect</h3>
+          <p style="color: var(--text-muted); font-size: 14px;">To simulate and save your gameplay progress, Trawler collects and stores the following minimum data:</p>
+          <ul style="color: var(--text-muted); font-size: 14px; margin-left: 20px; margin-top: 8px; display: flex; flex-direction: column; gap: 6px;">
+            <li><strong>Discord User ID</strong>: Used as a unique database primary key to link and save your player profile.</li>
+            <li><strong>Username & Display Name</strong>: Used to render global leaderboards, social registries, and personalized UI panels.</li>
+            <li><strong>Gameplay State Data</strong>: Your captain level, XP points, wallet balance (Coins, Pearls), active voyage logs, owned gear, equipped vessels, hired crew members, companion pets database, and marketplace listings.</li>
+          </ul>
+          <p style="color: var(--text-muted); font-size: 14px; margin-top: 8px;">We do <strong>not</strong> collect your email, physical location, messages (other than command triggers), or any other personal details.</p>
+        </div>
+
+        <div>
+          <h3 style="font-size: 18px; color: var(--accent-color); margin-bottom: 8px; font-weight: 600;">2. How We Use Information</h3>
+          <p style="color: var(--text-muted); font-size: 14px;">The collected information is used strictly to simulate and restore your player progression, process gameplay commands (trawling, upgrades, travel permits, and skills upgrades), and compile global captain leaderboards and social registries.</p>
+        </div>
+
+        <div>
+          <h3 style="font-size: 18px; color: var(--accent-color); margin-bottom: 8px; font-weight: 600;">3. Data Sharing & Third Parties</h3>
+          <p style="color: var(--text-muted); font-size: 14px;">We do not sell, rent, trade, or share your data with any third-party organizations. All information remains within our secure MariaDB/Sequelize database.</p>
+        </div>
+
+        <div>
+          <h3 style="font-size: 18px; color: var(--accent-color); margin-bottom: 8px; font-weight: 600;">4. Data Deletion</h3>
+          <p style="color: var(--text-muted); font-size: 14px;">Captains have full control over their data:</p>
+          <ul style="color: var(--text-muted); font-size: 14px; margin-left: 20px; margin-top: 8px; display: flex; flex-direction: column; gap: 6px;">
+            <li><strong>In-Game Deletion</strong>: You can permanently and immediately delete all of your profile data, pets, vessels, and coins by using the in-game <strong>Reset Account</strong> button on your Port Dashboard.</li>
+            <li><strong>Manual Deletion</strong>: You can request full data deletion by contacting an administrator on our support Discord server: <a href="https://discord.gg/8xbdB6uzEd" target="_blank" class="discord-link">discord.gg/8xbdB6uzEd</a>. Upon request, we will purge all database records associated with your Discord ID within 48 hours.</li>
+          </ul>
+        </div>
+
+        <div style="border-top: 1px solid rgba(255, 255, 255, 0.08); padding-top: 20px; margin-top: 10px;">
+          <h3 style="font-size: 18px; color: var(--accent-color); margin-bottom: 8px; font-weight: 600;">5. Changes to this Policy</h3>
+          <p style="color: var(--text-muted); font-size: 14px;">We may update this Privacy Policy from time to time to align with new gameplay mechanics or Discord developer guidelines. The "Last Updated" date at the top will reflect the latest revision.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
